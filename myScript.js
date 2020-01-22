@@ -1,9 +1,4 @@
-
-
 function myLoop(){
-
-
-
 var end = document.getElementById("end").value;
 
 document.getElementById("start").value;
