@@ -1,7 +1,16 @@
+
 function myLoop(){
+
+
+
 var end = document.getElementById("end").value;
-var start= document.getElementById("start").value;
-var jump= document.getElementById("jump").value;
+
+  var start=
+document.getElementById("start").value;
+
+  var jump=
+ document.getElementById("jump").value;
+  
   console.log(start);
   console.log(typeof start);
   console.log(typeof end);
@@ -13,5 +22,5 @@ var jump= document.getElementById("jump").value;
 
 for(var i=start ; i < end; i+=jump){
   document.write('<p>' + i)
-   }
+}
 }
